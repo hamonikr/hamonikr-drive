@@ -14,5 +14,9 @@
 
 ![drive](doc/img2.png)
 
+온라인 계정으로 연결 화면
+
+![online-account](doc/img3.png)
+
  # 이슈 또는 버그
  사용 중 문제를 발견하시면 root@hamonikr.org 또는 https://groups.google.com/forum/m/#!forum/hamonikr 에서 알려주세요.
