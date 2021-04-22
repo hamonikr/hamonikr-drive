@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-online-accounts master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
+"issues\n"
+"PO-Revision-Date: 2020-01-30 09:03+0000\n"
+"Last-Translator: Gunwoo Kim <Unknown>\n"
+"Language-Team: 한국어 <gnome-kr@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2021-01-21 20:34+0000\n"
+"X-Generator: Launchpad (build 2d1d5e352f0d063d660df2300e31f66bed027fa5)\n"
+"Language: ko\n"
+
+msgid "%s Account"
+msgstr "%s 계정"
+
+msgid "A %s account already exists for %s"
+msgstr "%2$s에 대한 %1$s계정이 이미 있습니다"
+
+msgid ""
+"A list of strings representing the providers that are allowed to be loaded "
+"(default: 'all'). This is only evaluated on startup."
+msgstr ""
+"불러오도록 허용(기본값: ‘all’)한 제공자를 나타내는 문자열 목록입니다. 이 상태"
+"는 시작할 때만 확인합니다."
+
+msgid "Account is disabled"
+msgstr "비활성화 계정입니다"
+
+msgid "Authentication failed"
+msgstr "인증에 실패했습니다"
+
+msgid "Authorization response: "
+msgstr "인증 응답: "
+
+msgid "Authorization response: %s"
+msgstr "인증 응답: %s"
+
+msgid "Available Media Servers"
+msgstr "존재하는 미디어 서버"
+
+msgid "C_hat"
+msgstr "대화(_H)"
+
+msgid "C_onnect"
+msgstr "연결(_O)"
+
+msgid "Cale_ndar"
+msgstr "달력(_N)"
+
+msgid "Cannot find WebDAV endpoint"
+msgstr "WebDAV 종단점을 찾을 수 없습니다"
+
+msgid "Cannot resolve hostname"
+msgstr "호스트 이름을 해석할 수 없습니다"
+
+msgid "Cannot resolve proxy hostname"
+msgstr "프록시 호스트 이름을 해석할 수 없습니다"
+
+msgid "Code: %u — Unexpected response from server"
+msgstr "코드: %u — 서버에서 예상치 못한 응답"
+
+msgid "Connecting…"
+msgstr "연결 중…"
+
+msgid "Could not create credential cache for identity"
+msgstr "신원에 대한 자격 정보 캐시를 만들 수 없습니다"
+
+msgid "Could not create credential cache: "
+msgstr "자격 정보 캐시를 만들 수 없습니다: "
+
+msgid "Could not erase identity: "
+msgstr "신원 정보를 지울 수 없습니다: "
+
+msgid "Could not find identity"
+msgstr "신원 정보를 찾을 수 없습니다"
+
+msgid "Could not find identity credentials in cache: "
+msgstr "캐시에서 신원 자격 정보를 찾을 수 없습니다: "
+
+msgid "Could not find identity in credential cache: "
+msgstr "자격 정보 캐시에서 신원 정보를 찾을 수 없습니다: "
+
+msgid "Could not find saved credentials for principal “%s” in keyring"
+msgstr "키 모음에 저장한 “%s” 본인의 자격 정보를 찾을 수 없습니다"
+
+msgid "Could not finish up sifting through identity credentials in cache: "
+msgstr "캐시에서의 신원 자격 정보로 검토를 끝낼 수 없습니다: "
+
+msgid "Could not get new credentials to renew identity %s: "
+msgstr "%s 신원 정보를 새로 고칠 때 활용할 새 자격 정보를 가져올 수 없습니다: "
+
+msgid "Could not initialize credentials cache: "
+msgstr "자격 정보 캐시를 초기화 할 수 없습니다: "
+
+msgid "Could not parse response"
+msgstr "응답을 해석할 수 없습니다"
+
+msgid "Could not renew identity: "
+msgstr "신원 정보를 새로 고칠 수 없습니다: "
+
+msgid "Could not renew identity: Not signed in"
+msgstr "신원 정보를 새로 고칠 수 없습니다: 접속하지 않았습니다"
+
+msgid "Could not sift through identity credentials in cache: "
+msgstr "캐시의 신원 자격 정보로 검토할 수 없습니다: "
+
+msgid "Could not store new credentials in credentials cache: "
+msgstr "자격 정보 캐시에 새로운 자격 정보를 저장할 수 없습니다: "
+
+msgid "Couldn't get GoaObject for object path %s"
+msgstr "%s 객체 경로의 GoaObject를 가져올 수 없습니다"
+
+msgid "Credentials do not contain access_token"
+msgstr "자격 정보에 access_token이 없습니다"
+
+msgid "Credentials do not contain access_token or access_token_secret"
+msgstr "자격 정보에 access_token이나 access_token_secret이 없습니다"
+
+msgid "Credentials have expired"
+msgstr "인증서 기한이 끝났습니다"
+
+msgid "Dialog was dismissed"
+msgstr "대화 상자가 닫혔습니다"
+
+msgid "Dialog was dismissed (%s, %d): "
+msgstr "대화 상자가 닫혔습니다(%s, %d): "
+
+msgid "Did not find %s with identity “%s” in credentials"
+msgstr "인증에서 “%2$s” 자격 정보의 %1$s을(를) 찾지 못했습니다"
+
+msgid "Did not find password for principal “%s” in credentials"
+msgstr "“%s” 자격 정보에서 암호를 찾을 수 없습니다"
+
+msgid "E-mail"
+msgstr "전자메일"
+
+msgid "Enterprise Login (Kerberos)"
+msgstr "기업 로그인(커베로스)"
+
+msgid "Error connecting to Fedora"
+msgstr "페도라에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to IMAP server"
+msgstr "IMAP 서버에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to Last.fm"
+msgstr "Last.fm에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to Microsoft Exchange server"
+msgstr "마이크로소프트 익스체인지 서버에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to Nextcloud server"
+msgstr "클라우드 서버에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to SMTP server"
+msgstr "SMTP 서버에 연결 중 오류가 발생했습니다"
+
+msgid "Error connecting to Ubuntu Single Sign-On server"
+msgstr "Ubuntu Single Sign-On 서버에 연결하는 중 오류가 발생했습니다"
+
+msgid "Error connecting to enterprise identity server"
+msgstr "기업 신원 서버로 연결 중 오류가 발생했습니다"
+
+msgid "Error getting a Request Token: "
+msgstr "요청 토큰을 가져오는데 오류가 발생했습니다: "
+
+msgid "Error getting an Access Token: "
+msgstr "접근 토큰을 가져오는데 오류가 발생했습니다: "
+
+msgid "Error getting identity: "
+msgstr "신원 정보를 가져오는데 오류가 발생했습니다: "
+
+msgid "Error logging into the account"
+msgstr "계정 로그인 오류"
+
+msgid "Error parsing result obtained from the keyring: "
+msgstr "키 모음에서 가져온 결과를 해석하는데 오류가 있습니다: "
+
+msgid ""
+"Expected status 200 for getting a Request Token, instead got status %d (%s)"
+msgstr "요청 토큰을 가져오는데 200을 예상했지만, 상태 %d번(%s)을 받았습니다"
+
+msgid ""
+"Expected status 200 when requesting access token, instead got status %d (%s)"
+msgstr "접근 토큰을 요청에 상태 200을 예상했지만, 상태 %d번(%s)을 받았습니다"
+
+msgid ""
+"Expected status 200 when requesting your identity, instead got status %d (%s)"
+msgstr ""
+"신원 인증을 요청할 때 상태 200을 기대했지만, %d 상태를 가져왔습니다(%s)"
+
+msgid "Facebook"
+msgstr "페이스북"
+
+msgid "Failed to delete credentials from the keyring"
+msgstr "키 모음에서 자격 정보를 삭제하는데 실패했습니다"
+
+msgid "Failed to find ASUrl and OABUrl in autodiscover response"
+msgstr "자동 발견 응답에서 ASUrl과 OABUrl을 찾는데 실패했습니다"
+
+msgid "Failed to find a provider for: %s"
+msgstr "제공자 정보를 찾을 수 없습니다: %s"
+
+msgid "Failed to find “%s” element"
+msgstr "“%s” 요소 찾기에 실패했습니다"
+
+msgid "Failed to parse autodiscover response XML"
+msgstr "자동 발견 응답 XML 해석에 실패했습니다"
+
+msgid "Failed to refresh access token (%s, %d): "
+msgstr "접근 토큰을 새로 고치는데 실패했습니다(%s, %d): "
+
+msgid "Failed to retrieve credentials from the keyring"
+msgstr "키 모음에서 자격 정보를 가져오는데 실패했습니다"
+
+msgid "Failed to store credentials in the keyring"
+msgstr "키 모음에 자격 정보를 저장하는데 실패했습니다"
+
+msgid "Fedora"
+msgstr "페도라"
+
+msgid "Flickr"
+msgstr "플리커"
+
+msgid "Foursquare"
+msgstr "포스퀘어"
+
+msgid "GOA %s credentials for identity %s"
+msgstr "%s 그놈 온라인 계정이 %s 신원 정보에 대한 자격을 부여합니다"
+
+msgid "Google"
+msgstr "구글"
+
+msgid "I have an Ubuntu Single Sign-On account"
+msgstr "우분투 단일 로그인 계정이 있습니다."
+
+msgid "I want to register for an account now"
+msgstr "지금 계정을 등록하고 싶습니다."
+
+msgid "I've forgotten my password"
+msgstr "암호를 잊었습니다."
+
+msgid "IMAP"
+msgstr "IMAP"
+
+msgid "IMAP _Server"
+msgstr "IMAP 서버(_S)"
+
+msgid "IMAP and SMTP"
+msgstr "IMAP과 SMTP"
+
+msgid "Identity service returned invalid key"
+msgstr "인증 서비스에서 올바르지 않은 키를 반환했습니다"
+
+msgid "Initial secret key is invalid"
+msgstr "초기 비밀 키가 잘못되었습니다"
+
+msgid "Invalid %s with username “%s” (%s, %d): "
+msgstr "“%2$s” 사용자 이름의 잘못된 %1$s입니다(%3$s, %4$d): "
+
+msgid "Invalid certificate."
+msgstr "인증서가 잘못되었습니다."
+
+msgid "Invalid password with username “%s” (%s, %d): "
+msgstr "“%s” 사용자 이름의 암호가 잘못되었습니다(%s, %d): "
+
+msgid "IsLocked property is set for account"
+msgstr "계정에 IsLocked 속성을 설정했습니다"
+
+msgid "Last.fm"
+msgstr "Last.fm"
+
+msgid "List of providers that are allowed to be loaded"
+msgstr "불러오도록 허용한 제공자 목록"
+
+msgid "Loading “%s”…"
+msgstr "“%s” 불러오는 중…"
+
+msgid "Log In to Realm"
+msgstr "영역 로그인"
+
+msgid "M_usic"
+msgstr "음악(_U)"
+
+msgid "Media Server"
+msgstr "미디어 서버"
+
+msgid "Microsoft"
+msgstr "마이크로소프트"
+
+msgid "Microsoft Exchange"
+msgstr "마이크로소프트 익스체인지"
+
+msgid "Missing access_token or access_token_secret headers in response"
+msgstr "응답에 access_token이나 access_token_secret 헤더가 빠졌습니다"
+
+msgid "Missing request_token or request_token_secret headers in response"
+msgstr "응답애 request_token이나 request_token_secret 헤더가 빠졌습니다"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Network _Resources"
+msgstr "네트워크 자원(_R)"
+
+msgid "Nextcloud"
+msgstr "하모니카 클라우드"
+
+msgid "No associated identification found"
+msgstr "관련된 신분 증명을 찾지 못했습니다"
+
+msgid "No credentials found in the keyring"
+msgstr "키 모음에서 자격 정보를 찾을 수 없습니다"
+
+msgid "No media servers found"
+msgstr "미디어 서버가 없습니다"
+
+msgid "None"
+msgstr "없음"
+
+msgid "Operation was cancelled"
+msgstr "작업을 취소했습니다"
+
+msgid "Passc_ode:"
+msgstr "암호(_c) :"
+
+msgid ""
+"Personal content can be added to your applications through a media server "
+"account."
+msgstr "미디어 서버 계정을 통해 개인 컨텐트를 프로그램으로 추가할 수 있습니다."
+
+msgid "Please enter a passcode from your authentication device or app"
+msgstr "인증 장치 또는 앱에서 암호를 입력하십시오"
+
+msgid "Please enter your password below."
+msgstr "아래에 암호를 입력하십시오."
+
+msgid "Prin_ters"
+msgstr "프린터(_T)"
+
+msgid "Privacy Policy"
+msgstr "개인 정보 정책"
+
+msgid "Provided email/password is not correct"
+msgstr "제공된 이메일/비밀번호가 잘못되었습니다"
+
+msgid "ProviderType property is not set for account"
+msgstr "계정에 ProviderType 속성에 값이 없습니다"
+
+msgid "Remember this password"
+msgstr "이 암호 저장"
+
+msgid "SMTP"
+msgstr "SMTP"
+
+msgid "SMTP _Server"
+msgstr "SMTP 서버(_S)"
+
+msgid "SSL on a dedicated port"
+msgstr "제공 포트를 통해 SSL 연결"
+
+msgid "STARTTLS after connecting"
+msgstr "연결 후 STARTTLS 처리"
+
+msgid "Server does not support PLAIN"
+msgstr "서버에서 PLAIN을 지원하지 않습니다"
+
+msgid "Server does not support STARTTLS"
+msgstr "서버에서 STARTTLS를 지원하지 않습니다"
+
+msgid "Service not available"
+msgstr "서비스를 사용할 수 없습니다"
+
+msgid "Sign in to enable this account."
+msgstr "이 계정을 활성화하려면 접속하십시오."
+
+msgid "Something went wrong, please try again"
+msgstr "무언가 틀렸습니다. 다시 시도하십시오"
+
+msgid "TLS not available"
+msgstr "TLS를 사용할 수 없습니다"
+
+msgid "T_o Do"
+msgstr "일정(_O)"
+
+msgid ""
+"The certificate does not match the expected identity of the site that it was "
+"retrieved from."
+msgstr "인증서가 가져온 사이트에서 기대한 신원 정보와 일치하지 않습니다."
+
+msgid "The certificate has been revoked."
+msgstr "파기된 인증서입니다."
+
+msgid "The certificate has expired."
+msgstr "인증서의 기한이 끝났습니다."
+
+msgid "The certificate’s activation time is still in the future."
+msgstr "아직 인증서 활성 시기가 아닙니다."
+
+msgid "The certificate’s algorithm is considered insecure."
+msgstr "인증서 알고리즘이 안전하지 않습니다."
+
+msgid "The network realm %s needs some information to sign you in."
+msgstr "%s 네트워크 영역에 접속하려면 약간의 정보가 더 필요합니다."
+
+msgid "The provided 2-factor key is not recognised"
+msgstr "제공된 2-Factor 키가 인식되지 않습니다"
+
+msgid "The signing certificate authority is not known."
+msgstr "알 수 없는 서명 인증 기관 입니다."
+
+msgid ""
+"This account requires a second passcode from your authentication device or "
+"app"
+msgstr "이 계정에는 인증 장치 또는 앱의 두번째 암호가 필요합니다."
+
+msgid "Ticketing is disabled for account"
+msgstr "계정 티케팅을 비활성화했습니다"
+
+msgid "Ubuntu Single Sign-On"
+msgstr "Ubuntu Single Sign-On"
+
+msgid "Unknown authentication mechanism"
+msgstr "알 수 없는 인증 매커니즘입니다"
+
+msgid "Unknown error"
+msgstr "알 수 없는 오류"
+
+msgid "Use for"
+msgstr "사용 목적"
+
+msgid "User_name"
+msgstr "사용자 이름(_N)"
+
+msgid "Was asked to log in as %s, but logged in as %s"
+msgstr "%s 계정 로그인을 요청받았지만, %s 계정으로 로그인했습니다."
+
+msgid "Your system time is invalid. Check your date and time settings."
+msgstr "시스템 시간이 잘못되었습니다. 날짜와 시간 설정을 확인해보십시오."
+
+msgid "_Cancel"
+msgstr "취소(_C)"
+
+msgid "_Contacts"
+msgstr "연락처(_C)"
+
+msgid "_Custom"
+msgstr "사용자 설정(_C)"
+
+msgid "_Documents"
+msgstr "문서(_D)"
+
+msgid "_E-mail"
+msgstr "전자메일(_E)"
+
+msgid "_Email address:"
+msgstr "전자메일 주소(_E):"
+
+msgid "_Encryption"
+msgstr "암호화(_E)"
+
+msgid "_Files"
+msgstr "파일(_F)"
+
+msgid "_Forward"
+msgstr "전달(_F)"
+
+msgid "_Ignore"
+msgstr "무시(_I)"
+
+msgid "_Mail"
+msgstr "메일(_M)"
+
+msgid "_Maps"
+msgstr "지도(_M)"
+
+msgid "_Name"
+msgstr "이름(_N)"
+
+msgid "_Password"
+msgstr "암호(_P)"
+
+msgid "_Password:"
+msgstr "암호(_P):"
+
+msgid "_Photos"
+msgstr "사진(_P)"
+
+msgid "_Principal"
+msgstr "본인 정보(_P)"
+
+msgid "_Read Later"
+msgstr "다음에 읽음(_R)"
+
+msgid "_Server"
+msgstr "서버(_S)"
+
+msgid "_Sign In"
+msgstr "접속(_S)"
+
+msgid "_Try Again"
+msgstr "다시 시도(_T)"
+
+msgid "ensure_credentials_sync is not implemented on type %s"
+msgstr "%s 형식에 ensure_credentials_sync를 구현하지 않았습니다"

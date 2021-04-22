@@ -1,0 +1,13 @@
+Source: hamonikr-drive
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: hamonikr-drive
+Architecture: all
+Depends: 
+Replaces: language-pack-gnome-ko-base, libgoa-1.0-common
+Description: Cloud Storage for HamoniKR
+ 하모니카 리눅스 사용자를 위한 클라우드 저장소.

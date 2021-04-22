@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+# %:
+# 	dh ${@}
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f po/*.mo
+
+override_dh_auto_build:
+	msgfmt po/gnome-online-accounts.po -o po/gnome-online-accounts.mo
+	dh_auto_build -- $(MAKE_OPTS)
+
+%:
+	dh $@ --no-automatic-dbgsym --parallel 
+
+override_dh_usrlocal:	
