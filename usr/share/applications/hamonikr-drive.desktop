@@ -1,7 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
+Type=Application
+Version=1.0
 Name=HamoniKR WebDisk
 Name[ko]=하모니카 웹하드
-Type=Link
-URL=https://drive.hamonikr.org/
+Comment=Visit to HamoniKR WebDisk
+Comment[ko]=하모니카 웹하드 바로가기
 Icon=hamonikr-drive
+Exec=sh -c 'xdg-open https://drive.hamonikr.org/'
+Terminal=false
+Categories=Network;WebBrowser;
