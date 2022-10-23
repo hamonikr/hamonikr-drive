@@ -1,3 +1,11 @@
+hamonikr-drive (1.0.2) taebaek; urgency=medium
+
+  [Kevin]
+  * Add exception handling in postint
+   - null RUID check
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 23 Oct 2022 23:42:17 +0900
+
 hamonikr-drive (1.0.1) stable; urgency=medium
 
   [Kevin]
