@@ -1,7 +1,15 @@
+hamonikr-drive (1.0.4) taebaek; urgency=medium
+
+  [Kevin]
+  * Change display app Name
+   - 하모니카 드라이브로 통일
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 09 Nov 2022 12:53:13 +0900
+
 hamonikr-drive (1.0.3) taebaek; urgency=medium
 
   [Kevin]
-  * Removed user side copy feature inpostinst
+  * Removed user side copy feature in postinst
 
  -- HamoniKR <pkg@hamonikr.org>  Mon, 24 Oct 2022 13:54:52 +0900
 
